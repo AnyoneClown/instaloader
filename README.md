@@ -25,12 +25,12 @@ Then install the dependencies:
 
 ## How to use
 
-# Prepare ur account:
+### Prepare ur account:
 
 - Login to Instagram in Firefox,
 - Execute the snippet, e.g. with python 615_import_firefox_session.py,
 - Then, instaloader -l USERNAME should work fine.
 
-# Change account in main.py
+### Change account in main.py
 
 - Change "L.load_session_from_file("USERNAME")" with your username
