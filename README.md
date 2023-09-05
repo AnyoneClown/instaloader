@@ -29,7 +29,11 @@ Then install the dependencies:
 
 - Login to Instagram in Firefox,
 - Execute the snippet, e.g. with python 615_import_firefox_session.py,
-- Then, instaloader -l USERNAME should work fine.
+- Then use this command in your terminal:
+
+```sh
+(env) instaloader -l USERNAME
+```
 
 ### Change account in main.py
 
