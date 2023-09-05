@@ -2,7 +2,7 @@ import instaloader
 
 def download_and_print_stories(username):
     L = instaloader.Instaloader()
-    L.load_session_from_file("wwentyasd")
+    L.load_session_from_file("USERNAME")
     profile = instaloader.Profile.from_username(L.context, username)
     user_id = profile.userid
 
@@ -11,7 +11,7 @@ def download_and_print_stories(username):
 
 def download_storyitem(username):
     L = instaloader.Instaloader()
-    L.load_session_from_file("wwentyasd")
+    L.load_session_from_file("USERNAME")
     profile = instaloader.Profile.from_username(L.context, username)
 
     for highlight in L.get_highlights(profile):
@@ -22,7 +22,7 @@ def download_storyitem(username):
 
 def download_posts(username):
     L = instaloader.Instaloader()
-    L.load_session_from_file("wwentyasd")
+    L.load_session_from_file("USERNAME")
     profile = instaloader.Profile.from_username(L.context, username)
 
     for post in profile.get_posts():
