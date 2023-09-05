@@ -19,7 +19,7 @@ Create a virtual environment to install dependencies in and activate it:
 Then install the dependencies:
 
 ```sh
-(env) pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
@@ -32,7 +32,7 @@ Then install the dependencies:
 - Then use this command in your terminal:
 
 ```sh
-(env) instaloader -l USERNAME
+instaloader -l USERNAME
 ```
 
 ### Change account in main.py
